@@ -1,0 +1,197 @@
+*
+	&::selection
+		background-color: #ddd
+		color: #111	
+		text-shadow: 0 1px 1px #fff
+body
+	font-family: 'Playfair Display', serif
+.header
+	background-color: #fff
+	padding-top: 65px
+	padding-bottom: 65px
+	&_logo
+	ul
+		list-style: none
+		margin: 0
+		padding: 0
+		margin-top: 4px
+		margin-left: 70px
+
+		li
+			margin: 0
+			font-size: 14px
+			padding: 0
+			display: inline-block
+			margin-right: 120px
+			text-transform: uppercase
+			a
+				color: #626262
+				&:hover
+					text-decoration: none
+					color: lighten(#626262, 30%)
+			&:last-child
+				margin-right: 0
+.photo
+	padding-bottom: 80px
+	&_main
+		background: #aaa url('../img/image_first.jpg') center no-repeat
+		background-size: cover
+		height: 513px
+.photodiary
+	padding-bottom: 130px
+	&_subtitle
+		color: #c7c1b6
+		font-size: 14px
+		margin-bottom: 20px
+	&_title
+		color: #626262
+		font-size: 30px
+		font-weight: 300
+		margin-bottom: 40px
+	&_text
+		font-size: 14px
+		color: #626262
+		line-height: 2
+		width: 900px
+		margin-bottom: 78px
+	&_leave
+		text-transform: uppercase
+		text-decoration: none
+		a
+			color: #c7c1b6
+			&:hover
+				text-decoration: none
+				color: darken(#c7c1b6, 25%)
+
+.gallery
+	&_subtitle
+		font-size: 14px
+		color: #c7c1b6
+		margin-top: 20px
+		text-transform: uppercase
+	&_title
+		font-weight: 900
+		text-transform: uppercase
+		font-size: 22px
+		margin-top: 20px
+	&_text
+		width: 95%
+		margin-top: 40px
+		font-size: 14px
+	&_img
+		margin-bottom: 130px
+		&_second
+			margin-bottom: 0
+			margin-top: 120px
+			margin-bottom: 150px
+.form
+	background-color: #e0e0e0
+	text-align: center
+	padding-top: 70px
+	padding-bottom: 80px
+	&_label
+		cursor: text
+		display: block
+		font-size: 30px
+		font-weight: 300
+		margin-bottom: 80px
+	&_email
+		display: inline-block
+		margin: 0 auto
+		width: 350px
+		padding-left: 5px
+		outline: none
+		padding-bottom: 1px
+		font-size: 18px
+		background: transparent
+		border: none
+		border-bottom: 1px solid #111
+	&_submit
+		margin-left: -40px
+		background: transparent
+		background: url('../img/icon_send.png') no-repeat
+		border: none
+		cursor: pointer
+		width: 32px
+		height: 16px
+
+.link
+	text-decoration: none
+	display: block
+	color: #626262
+	transition: 0.2s linear
+	border: 1px solid #626262
+	margin: 0 auto
+	width: 120px
+	padding-left: 21px
+	padding-top: 10px
+	padding-bottom: 10px
+	margin-bottom: 50px
+	&:hover
+		text-decoration: none
+		background-color: #626262
+		color: #eee
+.footer
+	background-color: #626262
+	color: #c7c1b6
+	padding-top: 25px
+	padding-bottom: 30px
+	&_name
+		font-size: 30px
+		font-weight: 400
+	&_copyright
+		font-size: 20px
+		margin-top: 10px	
+
+
+@media (max-width: 1199.98px)
+	.header
+		ul
+			li
+				margin-right: 80px
+	.photodiary
+		&_text
+			width: 80%
+@media (max-width: 992px)
+	.header
+		ul
+			li
+				margin-right: 20px
+	.footer
+		text-align: center
+@media (max-width: 767.98px)
+	.header
+		ul
+			margin-left: 0
+			li
+				margin-right: 10px
+	.gallery_img
+		margin-bottom: 80px
+	.gallery_img_second
+		margin-top: 40px
+		margin-bottom: 35px
+@media (max-width: 576px)
+	.header
+		ul
+			margin-left: 50%
+			li
+				margin-bottom: 15px
+				font-size: 16px
+				display: block
+				&:last-child
+					margin-bottom: 0
+	.form_email
+		width: 85%
+	.form_label
+		font-size: 24px
+		width: 85%
+		margin-left: auto
+		margin-right: auto
+@media (max-width: 400px)
+	.header
+		ul
+			margin-left: 35%
+
+	
+
+
